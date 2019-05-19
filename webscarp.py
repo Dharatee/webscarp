@@ -41,7 +41,11 @@ containers=page_soup.findAll('div')[2]  #div with ID of section 2
 
 containers=page_soup.find(id='section-1')
 containers=page_soup.find(class_='item-container') #class is a reserved word so use class_ .
+len(containers) #the number of objects
 
 print(containers)
+
+#find HTML
+containers[0]
 
 
