@@ -7,6 +7,8 @@ my_url='https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38'
 uClient=uReq(my_url)
 page_html=uClient.read()
 uClient.close()
-soup(page_html,"html.parser")
+
+#html parsing
+page_soup=soup(page_html,"html.parser")
 
 
